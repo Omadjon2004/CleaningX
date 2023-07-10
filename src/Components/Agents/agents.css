@@ -1,0 +1,91 @@
+.inNumbers{
+padding-top: 200px;
+}.ourDigits{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    padding-bottom: 200px;
+}
+.digitsLeft{
+    width: 100%;
+    text-align: left;
+}
+.leftDigitsTitle{
+    max-width: 346px;
+    color: #211F54;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 57.984px;
+}
+.leftDigitsText{
+    max-width: 496px;
+    color: #6E7191;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.006px;
+}
+.leftNumbers{
+    max-width:500px;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.btnNumbers{
+    margin-top: 48px;
+}
+.numbersTitle{
+    color: #211F54;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 65.988px;
+}
+.titleSpan{
+    color: #0075FF
+}
+.titlesText{
+    color: #6E7191;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 23.994px;
+}
+.digitsImg{
+    width: 100%;
+}
+@media (max-width:792px) {
+    .inNumbers{
+        padding-top: 100px;
+    }
+    .ourDigits{
+        grid-template-columns: 1fr;
+    }
+    .leftDigitsTitle{
+        margin: 0 auto;
+    } 
+    .leftDigitsText{
+        margin: 0 auto;
+    }
+    .leftNumbers{
+        margin: 0 auto;
+       
+    }
+.digitsLeft{
+    width: 100%;
+    text-align: center;
+}
+.btnNumbers{
+    display: block;
+    margin: 30px auto;
+}
+}
+@media (max-width:576px) {
+    .btnNumbers{
+        display: block;
+    }
+}
